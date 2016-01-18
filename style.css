@@ -1,0 +1,35 @@
+#myname {
+	margin-left: 1em;
+	font-family: futura;
+	font-size: 15pt;
+	font-color:grey;
+}
+
+#header {
+	margin-top: 3.5em;
+}
+
+#navigation {
+	font-family: futura;
+	font-size: 10pt;
+	font-color: grey;
+	float: right;
+	display: inline-block;
+	cursor: auto;
+	line-height: 1em;
+}
+#navigation ul {
+    list-style-type: none;
+}
+
+#navigation li {
+	display: inline;
+	padding-right: 3.2em;
+}
+li a:hover {
+    background-color: lightgrey;
+    text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
