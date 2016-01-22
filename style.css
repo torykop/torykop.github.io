@@ -1,8 +1,16 @@
+body{
+	background-image: url("background5.png");
+	/*background-color: lightblue;*/
+}
+
 #myname {
 	margin-left: 1em;
 	font-family: futura;
 	font-size: 15pt;
-	font-color:grey;
+	color:#505a66;
+}
+#myname:hover{
+	color:#9fd0e4;
 }
 
 #header {
@@ -12,7 +20,7 @@
 #navigation {
 	font-family: futura;
 	font-size: 10pt;
-	font-color: grey;
+	color: #505a66;
 	float: right;
 	display: inline-block;
 	cursor: auto;
@@ -20,6 +28,7 @@
 }
 #navigation ul {
     list-style-type: none;
+    text-decoration: none;
 }
 
 #navigation li {
@@ -27,9 +36,10 @@
 	padding-right: 3.2em;
 }
 li a:hover {
-    background-color: lightgrey;
     text-decoration: none;
+    color:#9fd0e4;
 }
 a{
 	text-decoration: none;
+	color:#717577;
 }
